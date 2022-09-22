@@ -18,7 +18,5 @@
                 Foreground="#006699"
                 Background="#f0f0f0"
                 BorderBrush="#303030" />
-
-
     </Grid>
 </Window>
