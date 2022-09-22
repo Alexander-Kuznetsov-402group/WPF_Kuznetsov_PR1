@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" />
+        <!--<Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" />-->
+        <Button x:Name="Btnl"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="150"
+                Height="30"
+                FontSize="17"
+                Content="Обычная кнопка"
+                Foreground="#006699"
+                Background="#f0f0f0"
+                BorderBrush="#303030" />
+
+
     </Grid>
 </Window>
