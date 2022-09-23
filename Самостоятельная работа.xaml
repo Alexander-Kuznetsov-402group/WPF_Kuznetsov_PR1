@@ -7,13 +7,23 @@
         mc:Ignorable="d"
         Title="Самостоятельная_работа" Height="450" Width="800">
     <Grid>
-        <WrapPanel>
-            <Label Content="Регистрация пользователя" />
-            <Label Content="ФИО" />
-            <TextBox Width="200" />
-            <Label Content="Email" />
-            <TextBox Width="200" />
-            <Button Content="Зарегистрироваться" />
-        </WrapPanel>
+        <Canvas>
+            <Label Content="Последние документы" Canvas.Left="10" Canvas.Top="10" />
+            <Label Content="1.txt" Canvas.Left="10" Canvas.Top="70" />
+            <Label Content="2.txt" Canvas.Left="10" Canvas.Top="100" />
+            <Label Content="3.txt" Canvas.Left="10" Canvas.Top="130" />
+            <Label Content="4.txt" Canvas.Left="10" Canvas.Top="160" />
+            <Label Content="5.txt" Canvas.Left="10" Canvas.Top="190" />
+            <Label Content="6.txt" Canvas.Left="10" Canvas.Top="220" />
+            <Label Content="1.txt" Canvas.Left="158" Canvas.Top="50" FontWeight="Bold"/>
+            <Label Content="2.txt" Canvas.Left="190" Canvas.Top="50" />
+            <Label Content="3.txt" Canvas.Left="220" Canvas.Top="50" />
+            <Button x:Name="Win1" Canvas.Left="160" Canvas.Top="10" Height="30" Width="100" Content="Открыть"></Button>
+            <Button x:Name="Win2" Canvas.Left="280" Canvas.Top="10" Height="30" Width="100" Content="Сохранить"></Button>
+            <Button x:Name="Win3" Canvas.Left="400" Canvas.Top="10" Height="30" Width="100" Content="закрыть" ></Button>
+            <Button x:Name="Win4" Canvas.Left="520" Canvas.Top="10" Height="30" Width="100" Content="Обработать" ></Button>
+            <Button x:Name="Win5" Canvas.Left="640" Canvas.Top="10" Height="30" Width="100" Content="О программе" > </Button>
+        </Canvas>
+       
     </Grid>
 </Window>

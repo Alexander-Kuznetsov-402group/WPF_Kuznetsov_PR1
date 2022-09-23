@@ -15,6 +15,7 @@
             <Button x:Name="Win5" Canvas.Left="10" Canvas.Top="100" Height="50" Width="100" Content="Win5" Click="Win5_Click"></Button>
             <Button x:Name="Win6" Canvas.Left="150" Canvas.Top="100" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
             <Button x:Name="Win7" Canvas.Left="300" Canvas.Top="100" Height="50" Width="100" Content="Win7" Click="Win7_Click"></Button>
+            <Button x:Name="Win8" Canvas.Left="450" Canvas.Top="100" Height="50" Width="100" Content="Самостоятельная" Click="Win8_Click"></Button>
         </Canvas>
         <Button x:Name="Btnl" Content="Обычная кнопка" Margin="95,204,474,157">
             <Button.Background>

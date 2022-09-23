@@ -71,5 +71,11 @@ namespace WPF_Kuznetsov_PR1
             Window7 window7 = new Window7();
             window7.Show();
         }
+
+        private void Win8_Click(object sender, RoutedEventArgs e)
+        {
+            Самостоятельная_работа Самостоятельная = new Самостоятельная_работа();
+            Самостоятельная.Show();
+        }
     }
 }
