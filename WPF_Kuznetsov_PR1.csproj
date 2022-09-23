@@ -76,6 +76,9 @@
     <Compile Include="Window7.xaml.cs">
       <DependentUpon>Window7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Самостоятельная работа.xaml.cs">
+      <DependentUpon>Самостоятельная работа.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -113,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Самостоятельная работа.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
