@@ -41,5 +41,29 @@ namespace WPF_Kuznetsov_PR1
             Window1 window1 = new Window1();
             window1.Show();
         }
+
+        private void Win3_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
+        }
+
+        private void Win4_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            window4.Show();
+        }
+
+        private void Win5_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+        }
+
+        private void Win6_Click(object sender, RoutedEventArgs e)
+        {
+            Window6 window6 = new Window6();
+            window6.Show();
+        }
     }
 }
