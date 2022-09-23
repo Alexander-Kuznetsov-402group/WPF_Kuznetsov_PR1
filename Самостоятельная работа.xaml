@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Самостоятельная_работа" Height="450" Width="800">
     <Grid>
-        <Canvas>
+        <Canvas Grid.RowSpan="2">
             <Label Content="Последние документы" Canvas.Left="10" Canvas.Top="10" />
             <Label Content="1.txt" Canvas.Left="10" Canvas.Top="70" />
             <Label Content="2.txt" Canvas.Left="10" Canvas.Top="100" />
@@ -22,8 +22,7 @@
             <Button x:Name="Win2" Canvas.Left="280" Canvas.Top="10" Height="30" Width="100" Content="Сохранить"></Button>
             <Button x:Name="Win3" Canvas.Left="400" Canvas.Top="10" Height="30" Width="100" Content="закрыть" ></Button>
             <Button x:Name="Win4" Canvas.Left="520" Canvas.Top="10" Height="30" Width="100" Content="Обработать" ></Button>
-            <Button x:Name="Win5" Canvas.Left="640" Canvas.Top="10" Height="30" Width="100" Content="О программе" > </Button>
+            <Button x:Name="Win5" Canvas.Left="640" Canvas.Top="10" Height="30" Width="100" Content="О программе" ></Button>
         </Canvas>
-       
     </Grid>
 </Window>
