@@ -8,9 +8,11 @@
         Title="Window1" Height="450" Width="800">
     <Grid HorizontalAlignment="Left" Width="792">
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5.0">
-                <GradientStop Color="Green" Offset="0" />
-                <GradientStop Color="#FF25E025" Offset="1" />
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF2300FF" Offset="1"/>
+                <GradientStop Color="#FF1700FF"/>
+                <GradientStop Color="#FF04FF04" Offset="0.783"/>
+                <GradientStop Color="#FF0BFF0B" Offset="0.201"/>
             </LinearGradientBrush>
         </Grid.Background>
     </Grid>
